@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="Electron" modified="2026-06-12T00:00:00.000Z" agent="5.0" etag="xyz999" version="14.0.0" type="device">
+  <diagram id="flujo-usuario" name="Flujo de Usuario">
+    <mxGraphModel dx="1400" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <!-- Inicio -->
+        <mxCell id="2" value="🌐 Acceso a technova.azurewebsites.net" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0078D4;strokeColor=#003d99;strokeWidth=2;fontSize=11;fontStyle=1;fontColor=#ffffff" vertex="1" parent="1">
+          <mxGeometry x="500" y="30" width="240" height="60" as="geometry"/>
+        </mxCell>
+        <!-- Decisión Device -->
+        <mxCell id="3" value="¿Dispositivo?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFC107;strokeColor=#F57C00;strokeWidth=2;fontSize=11;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="530" y="130" width="180" height="80" as="geometry"/>
+        </mxCell>
+        <!-- Desktop -->
+        <mxCell id="4" value="💻 Versión Escritorio\n(Full Experience)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#4CAF50;strokeColor=#2E7D32;strokeWidth=2;fontSize=10;fontColor=#ffffff" vertex="1" parent="1">
+          <mxGeometry x="280" y="250" width="150" height="70" as="geometry"/>
+        </mxCell>
+        <!-- Mobile -->
+        <mxCell id="5" value="📱 Versión Móvil\n(Responsive)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#4CAF50;strokeColor=#2E7D32;strokeWidth=2;fontSize=10;fontColor=#ffffff" vertex="1" parent="1">
+          <mxGeometry x="800" y="250" width="150" height="70" as="geometry"/>
+        </mxCell>
+        <!-- Exploración -->
+        <mxCell id="6" value="🔍 Explora Secciones" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#2196F3;strokeColor=#1565C0;strokeWidth=2;fontSize=11;fontColor=#ffffff" vertex="1" parent="1">
+          <mxGeometry x="520" y="370" width="200" height="60" as="geometry"/>
+        </mxCell>
+        <!-- Decisión Interacción -->
+        <mxCell id="7" value="¿Qué hace?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFC107;strokeColor=#F57C00;strokeWidth=2;fontSize=11;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="480" y="480" width="280" height="100" as="geometry"/>
+        </mxCell>
+        <!-- Navegación -->
+        <mxCell id="8" value="🔗 Navega\nMenú Principal" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#9C27B0;strokeColor=#6A1B9A;strokeWidth=2;fontSize=10;fontColor=#ffffff" vertex="1" parent="1">
+          <mxGeometry x="150" y="640" width="130" height="70" as="geometry"/>
+        

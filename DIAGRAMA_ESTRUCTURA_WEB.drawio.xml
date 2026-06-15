@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="Electron" modified="2026-06-12T00:00:00.000Z" agent="5.0" etag="xyz789" version="14.0.0" type="device">
+  <diagram id="estructura-web" name="Estructura del Sitio Web">
+    <mxGraphModel dx="1200" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <!-- Sitio Web Principal -->
+        <mxCell id="2" value="🌐 TechNova Solutions" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0078D4;strokeColor=#003d99;strokeWidth=2;fontSize=13;fontStyle=1;fontColor=#ffffff" vertex="1" parent="1">
+          <mxGeometry x="350" y="30" width="200" height="60" as="geometry"/>
+        </mxCell>
+        <!-- Navbar -->
+        <mxCell id="3" value="🔝 NAVBAR\nLogo | Menú | Hamburger" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1E88E5;strokeColor=#0D47A1;strokeWidth=2;fontSize=11;fontColor=#ffffff" vertex="1" parent="1">
+          <mxGeometry x="350" y="130" width="200" height="60" as="geometry"/>
+        </mxCell>
+        <!-- Hero Section -->
+        <mxCell id="4" value="🎨 HERO SECTION\nPortada Principal\nCTA: Empieza Hoy" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6F00;strokeColor=#E65100;strokeWidth=2;fontSize=11;fontColor=#ffffff" vertex="1" parent="1">
+          <mxGeometry x="50" y="240" width="180" height="80" as="geometry"/>
+        </mxCell>
+        <!-- Servicios -->
+        <mxCell id="5" value="💼 SERVICIOS" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#388E3C;strokeColor=#1B5E20;strokeWidth=2;fontSize=12;fontStyle=1;fontColor=#ffffff" vertex="1" parent="1">
+          <mxGeometry x="280" y="240" width="180" height="60" as="geometry"/>
+        </mxCell>
+        <!-- Servicios Detalle -->
+        <mxCell id="6" value="🌐 Desarrollo Web" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C8E6C9;strokeColor=#2E7D32;fontSize=10" vertex="1" parent="1">
+          <mxGeometry x="250" y="330" width="140" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="7" value="📱 Aplicaciones Móviles" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C8E6C9;strokeColor=#2E7D32;fontSize=10" vertex="1" parent="1">
+          <mxGeometry x="280" y="400" width="140" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="8" value="☁️ Consultoría Cloud" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C8E6C9;strokeColor=#2E7D32;fontSize=10" vertex="1" parent="1">
+          <mxGeometry x="310" y="470" width="140" height="50" as="geometry"/>
+        </mxCell>
+        <!-- Nosotros -->
+        <mxCell id="9" value="👥 NOSOTROS" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#7B1FA2;strokeColor=#4A148C;strokeWidth=2;fontSize=12;fontStyle=1;fontColor=#ffffff" vertex="1" parent="1">
+          <mxGeometry x="510" y="240" width="180" height="60" as="geometry"/>
+        </mxCell>
+        <!-- Detalles Nosotros -->
+        <mxCell id="10" value="📊 25+ Proyectos" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E1BEE7;strokeColor=#6A1B9A;fontSize=10" vertex="1" parent="1">
+          <mxGeometry x="480" y="330" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="11" value="👥 15+ Clientes" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E1BEE7;strokeColor=#6A1B9A;fontSize=10" vertex="1" parent="1">
+          <mxGeometry x="480" y="390" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="12" value="👨‍💼 8 Profesionales" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E1BEE7;strokeColor=#6A1B9A;fontSize=10" vertex="1" parent="1">
+          <mxGeometry x="480" y="450" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <!-- Contacto -->
+        <mxCell id="13" value="📧 CONTACTO" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#C62828;strokeColor=#B71C1C;strokeWidth=2;fontSize=12;fontStyle=1;fontColor=#ffffff" vertex="1" parent="1">
+          <mxGeometry x="740" y="240" width="180" height="60" as="geometry"/>
+        </mxCell>
+        <!-- Formulario Contacto -->
+        <mxCell id="14" value="📝 Formulario" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFCDD2;strokeColor=#C62828;fontSize=10" vertex="1" parent="1">
+          <mxGeometry x="710" y="330" width="120" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="15" value="✉️ Nombre\n📧 Email\n💬 Mensaje" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFCDD2;strokeColor=#C62828;fontSize=9" vertex="1" parent="1">
+          <mxGeometry x="710" y="400" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <!-- Footer -->
+        <mxCell id="16" value="© FOOTER\nInfo y Redes Sociales" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#455A64;strokeColor=#263238;strokeWidth=2;fontSize=11;fontColor=#ffffff" vertex="1" parent="1">
+          <mxGeometry x="350" y="580" width="200" height="60" as="geometry"/>
+        </mxCell>
+        <!-- Conexiones -->
+        <mxCell id="17" edge="1" parent="1" source="2" target="3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="18" edge="1" parent="1" source="3" target="4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="19" edge="1" parent="1" source="3" target="5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="20" edge="1" parent="1" source="3" target="9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="21" edge="1" parent="1" source="3" target="13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="22" edge="1" parent="1" source="5" target="6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="23" edge="1" parent="1" source="5" target="7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="24" edge="1" parent="1" source="5" target="8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="25" edge="1" parent="1" source="9" target="10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="26" edge="1" parent="1" source="9" target="11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="27" edge="1" parent="1" source="9" target="12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="28" edge="1" parent="1" source="13" target="14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="29" edge="1" parent="1" source="14" target="15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="30" edge="1" parent="1" source="2" target="16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="Electron" modified="2026-06-12T00:00:00.000Z" agent="5.0" etag="xyz456" version="14.0.0" type="device">
+  <diagram id="azure-infra" name="Infraestructura Azure">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <!-- Usuarios -->
+        <mxCell id="2" value="👥 Usuarios en Internet" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF9800;strokeColor=#E65100;strokeWidth=2;fontSize=12;fontStyle=1;fontColor=#ffffff" vertex="1" parent="1">
+          <mxGeometry x="50" y="50" width="180" height="60" as="geometry"/>
+        </mxCell>
+        <!-- Azure Portal -->
+        <mxCell id="3" value="Azure Portal" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0078D4;strokeColor=#003d99;strokeWidth=2;fontSize=12;fontStyle=1;fontColor=#ffffff" vertex="1" parent="1">
+          <mxGeometry x="350" y="50" width="180" height="60" as="geometry"/>
+        </mxCell>
+        <!-- Resource Group -->
+        <mxCell id="4" value="📦 Resource Group\nrg-technova" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0078D4;strokeColor=#003d99;strokeWidth=2;fontSize=11;fontColor=#ffffff" vertex="1" parent="1">
+          <mxGeometry x="250" y="200" width="180" height="70" as="geometry"/>
+        </mxCell>
+        <!-- App Service Plan -->
+        <mxCell id="5" value="⚙️ App Service Plan\nasp-technova\nFree Tier" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#4CAF50;strokeColor=#2E7D32;strokeWidth=2;fontSize=10" vertex="1" parent="1">
+          <mxGeometry x="80" y="350" width="140" height="70" as="geometry"/>
+        </mxCell>
+        <!-- Web App -->
+        <mxCell id="6" value="🌐 Web App\ntechnova\nazurewebsites.net" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#4CAF50;strokeColor=#2E7D32;strokeWidth=2;fontSize=10" vertex="1" parent="1">
+          <mxGeometry x="260" y="350" width="140" height="70" as="geometry"/>
+        </mxCell>
+        <!-- Virtual Network -->
+        <mxCell id="7" value="🔒 Virtual Network\nvnet-technova" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1E88E5;strokeColor=#0D47A1;strokeWidth=2;fontSize=10" vertex="1" parent="1">
+          <mxGeometry x="440" y="350" width="140" height="70" as="geometry"/>
+        </mxCell>
+        <!-- NSG -->
+        <mxCell id="8" value="🛡️ Network Security Group\nnsg-technova" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6F00;strokeColor=#E65100;strokeWidth=2;fontSize=10" vertex="1" parent="1">
+          <mxGeometry x="620" y="350" width="140" height="70" as="geometry"/>
+        </mxCell>
+        <!-- Subnet -->
+        <mxCell id="9" value="📍 Subnet\nsubnet-app\n10.0.1.0/24" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#B3E5FC;strokeColor=#01579B;fontSize=9" vertex="1" parent="1">
+          <mxGeometry x="440" y="480" width="140" height="60" as="geometry"/>
+        </mxCell>
+        <!-- Reglas NSG -->
+        <mxCell id="10" value="✅ Allow HTTP (80)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFCCBC;strokeColor=#BF360C;fontSize=9" vertex="1" parent="1">
+          <mxGeometry x="600" y="480" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="11" value="✅ Allow HTTPS (443)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFCCBC;strokeColor=#BF360C;fontSize=9" vertex="1" parent="1">
+          <mxGeometry x="600" y="530" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <!-- Contenido Estático -->
+        <mxCell id="12" value="📄 Static Content\nindex.html\ncss/ js/ assets/" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#C8E6C9;strokeColor=#2E7D32;strokeWidth=2;fontSize=10" vertex="1" parent="1">
+          <mxGeometry x="260" y="480" width="140" height="70" as="geometry"/>
+        </mxCell>
+        <!-- Conexiones -->
+        <mxCell id="13" edge="1" parent="1" source="2" target="6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="14" edge="1" parent="1" source="3" target="4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="15" edge="1" parent="1" source="4" target="5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="16" edge="1" parent="1" source="4" target="6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="17" edge="1" parent="1" source="4" target="7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="18" edge="1" parent="1" source="4" target="8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="19" edge="1" parent="1" source="7" target="9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="20" edge="1" parent="1" source="8" target="10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="21" edge="1" parent="1" source="8" target="11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="22" edge="1" parent="1" source="6" target="12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="23" edge="1" parent="1" source="5" target="6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
